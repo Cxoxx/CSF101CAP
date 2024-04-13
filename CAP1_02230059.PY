@@ -48,5 +48,5 @@ def calculate_score(Overall_Games_Played): # scores should be calculated based o
     print(f"The final accumulation of points is:{Point}") #when printing out the total sum of the points from the input file
 
 # when we run the program
-Input_your_file_name = "CSF101CAP/input_9_cap1.txt"  # give the unique respected Index Number for the students
+Input_your_file_name = "input_9_cap1.txt"  # give the unique respected Index Number for the students
 calculate_score(read_input(Input_your_file_name)) #now we Calculate the score using the data obtained from reading the input file
